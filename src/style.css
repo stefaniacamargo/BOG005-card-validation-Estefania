@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.Logo {
+    max-width: 8rem;
+}
+
+.nav_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav_list li {
+    padding: 1rem;
+}
+
+.nav_list li a {
+    color:black;
+    text-decoration: none;
+}
+
+a {
+    border-radius: 5px;
+    transition: background-color .3s;
+    }
+    
+    a:hover {
+    background-color:gray;
+    }
+
+fieldset {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+    padding: 0.5rem 1rem;
+    border: 2px solid gray;
+    color: white; 
+}
+
+.product-list {
+    display:flex;
+    flex-direction:row;
+}
+
+.product {
+    padding: 3rem;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.personal-data-form {
+    width:100%;
+    max-width:400px;
+}
+
+.product-image {
+    flex-grow: 1;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.button-buy-1 {
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    background-color:#004777;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-1{
+    display: flex;
+    justify-content:space-around;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+
+}
+
+input{
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid gray;
+}
+
+.Card {
+    background-color:#EABE3F;
+    width: 22rem;
+    height: 13rem;
+    border-radius: 10px;
+}
+
+.visa{
+    display: flex;
+    justify-content: end;
+}
+.icon-visa {
+    width: 12%;
+    background-color: white;
+    margin: 8px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.tc-number {
+    color: white;
+}
+
+.tc-name {
+    color:white;
+}
+
+.tc-date {
+    color:white;
+}
+
+.container-2{
+    display: flex;
+    justify-content:space-around;
+}
+
+
+.number-Card {
+    margin: 10px;
+}
+
+.Name {
+    margin: 10px;
+}
+
+.Date {
+    margin: 10px;
+}
+
+.to-pay {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}

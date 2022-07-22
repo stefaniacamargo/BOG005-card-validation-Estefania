@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+    rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/79e1cf96d2.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <header>
+    <img src="./Images/showlogo.webp" alt="Logo_image" class="Logo" />
+    <nav>
+        <ul class="nav_list">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="#">Store</a></li>
+        <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+    <h1>¡Please fill in your information to make your purchase!</h1>
+</section>
+<div class="container-1">
+<form class="personal-data-form">
+    <fieldset>
+    <div class="numberCard">
+        <label for="NumberCard">Number Card:</label>
+        <input
+        type="number"
+        name="CreditCard"
+        id="CreditCard"
+        maxlength="16"
+        required
+    />
+    </div>
+    <div class="Name">
+        <label for="Name">Name:</label>
+        <input type="Text" name="Name" id="Name" />
+    </div>
+    <div class="Date">
+        <label for="Date">Expiration Date:</label>
+        <input
+        type="date"
+        name="ExpirationDate"
+        id="ExpirationDate"
+        
+    />
+    </div>
+    <div class="to-pay">
+    <button type="submit">Pay</button>
+    </div>
+    </fieldset>
+    </form>
+        <div class="Card">
+        <div class="visa">
+        <img src="./Images/visa_line_icon.png" alt="icon-visa" class="icon-visa">
+        </div>
+        <p class="tc-number">Number Card</p>
+        <p class="tc-name">Name</p>
+        <p class="tc-date">Expiration Date</p>
+        </div>
+    </main>
+    <footer>
+    <div class="container-2">
+    <p class="all-rigths">&copy;2022 Estefania Camargo Ramirez. All rights reserved, name taken from the adventure time.</p>
+    </div>
+    </footer>
+    <script src="index.js" type="module"></script>
+    </body>
+</html>
